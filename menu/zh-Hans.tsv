@@ -1,0 +1,148 @@
+# Simplified Chinese for the menu: English text (as written in gestureswitch.menu.json, \n for line breaks) TAB Chinese.
+# Lines for repeated patterns (combo hits, damage sliders) are made by menu/translate.ps1. Weapon names stay in English.
+Enable GestureSwitch	启用 GestureSwitch
+Off: the controller works exactly as in the game, as if the mod were not installed.	关闭：手柄的操作与原版游戏完全相同，就像没有安装此模组。
+Input Method	输入方式
+Gamepad: the mod works with controllers, and leaves the keyboard and mouse alone (no keyboard work at all).\n\nMouse and Keyboard: the chords and gestures also work on keyboard and mouse (the Keyboard & Mouse section at the bottom). A controller still works too.	手柄：模组只作用于手柄，不处理键盘和鼠标（完全不进行键盘相关的工作）。\n\n鼠标和键盘：组合键和手势也可以在键盘和鼠标上使用（见底部的“键盘和鼠标”部分）。手柄仍然可以使用。
+Gamepad	手柄
+Mouse and Keyboard	鼠标和键盘
+Primary Weapons	主武器
+Each way of attacking equips a primary form and attacks with it. Switching mid-combo keeps your place in the combo.	每种攻击方式都会装备一种主武器形态并用它攻击。连招中途切换不会打断连招进度。
+Enable Primary Weapons	启用主武器
+Off: the Primary Attack button and the Primary Modifier work as in the game (finisher chords still attack). The settings below are kept for when it is back on.	关闭：主攻击键和主武器修饰键的作用与原版游戏相同（终结技组合键仍会攻击）。下方设置会保留，重新开启后继续生效。
+Primary Style	主武器方式
+Dynamic: press, double-tap or hold the Primary Attack button to pick a primary form.\n\nModifier: hold the Primary Modifier and press the Primary Attack, Secondary Attack or Dash button to pick one; the Primary Attack button alone then attacks with no delay.\n\nMixed: normal attacks work as in Dynamic, and the Primary Modifier chords only set the primary, without a swing: for setting the weapon of your dash attacks.	动态：轻按、双击或长按主攻击键来选择主武器形态。\n\n修饰键：按住主武器修饰键，再按主攻击键、副攻击键或冲刺键来选择形态；单独按主攻击键则会无延迟地攻击。\n\n混合：普通攻击与“动态”相同，而主武器修饰键组合键只切换主武器、不挥击：用于设定冲刺攻击所用的武器。
+Dynamic	动态
+Modifier	修饰键
+Mixed	混合
+Press	轻按
+Primary Style Dynamic or Mixed: one press of the Primary Attack button.	主武器方式为“动态”或“混合”时：按一下主攻击键。
+Double-Tap	双击
+Primary Style Dynamic or Mixed: two quick presses of the Primary Attack button, for each swing. Mash it to keep swinging; mix it freely with presses and holds.	主武器方式为“动态”或“混合”时：每次挥击快速按两下主攻击键。连续快按可持续挥击；可与轻按、长按自由混合。
+Hold	长按
+Primary Style Dynamic or Mixed: keep the Primary Attack button down.	主武器方式为“动态”或“混合”时：按住主攻击键。
+Double-Tap Window (ms)	双击判定时间（毫秒）
+Primary Style Dynamic or Mixed: after a short press, how long the mod waits for a second press before it counts as a single press.\n\nEvery single press waits this long, so keep it as short as you can double-tap reliably.	主武器方式为“动态”或“混合”时：短按之后，模组等待第二次按下的时间，超时则算作单次轻按。\n\n每次轻按都要等待这段时间，因此在能稳定双击的前提下尽量设短。
+Hold Time (ms)	长按判定时间（毫秒）
+Primary Style Dynamic or Mixed: how long the Primary Attack button is held to count as a hold. (Finisher chords have their own Finisher Hold Time.)	主武器方式为“动态”或“混合”时：主攻击键按住多久算作长按。（终结技组合键有单独的“终结技长按时间”。）
+Primary Modifier	主武器修饰键
+Primary Style Modifier or Mixed: the button held to pick a primary form.\n\nOn LB/L1 it still does what it does in the game until a chord fires; on LT/L2, RT/R2 or RB/R1 the game never sees it (they are the game's power buttons).\n\nGive each kind of chord its own modifier.	主武器方式为“修饰键”或“混合”时：按住此键来选择主武器形态。\n\n设为 LB/L1 时，在触发组合键之前它仍保持游戏中的原本作用；设为 LT/L2、RT/R2 或 RB/R1 时，游戏完全收不到它（这些是游戏的能力键）。\n\n每种组合键请使用各自不同的修饰键。
+Modifier + Primary	修饰键 + 主攻击
+Primary Style Modifier or Mixed: hold the Primary Modifier and press the Primary Attack button.	主武器方式为“修饰键”或“混合”时：按住主武器修饰键，再按主攻击键。
+Modifier + Secondary	修饰键 + 副攻击
+Primary Style Modifier or Mixed: hold the Primary Modifier and press the Secondary Attack button.	主武器方式为“修饰键”或“混合”时：按住主武器修饰键，再按副攻击键。
+Modifier + Dodge	修饰键 + 冲刺
+Primary Style Modifier or Mixed: hold the Primary Modifier and press the Dash button.	主武器方式为“修饰键”或“混合”时：按住主武器修饰键，再按冲刺键。
+Secondary Weapons	副武器
+Hold the Secondary Modifier and press the Primary Attack, Secondary Attack or Dash button to equip that secondary and attack with it.\n\nHold the button for the heavy attack.	按住副武器修饰键，再按主攻击键、副攻击键或冲刺键，即可装备对应的副武器并用它攻击。\n\n按住该键可使出重击。
+Enable Secondary Weapons	启用副武器
+Off: the Secondary Modifier works as in the game, and no secondary chords. The settings below are kept for when it is back on.	关闭：副武器修饰键的作用与原版游戏相同，没有副武器组合键。下方设置会保留，重新开启后继续生效。
+Secondary Modifier	副武器修饰键
+The button held to pick a secondary form.\n\nOn LB/L1 it still does what it does in the game until a chord fires; on LT/L2, RT/R2 or RB/R1 the game never sees it (they are the game's power buttons).\n\nGive each kind of chord its own modifier.	按住此键来选择副武器形态。\n\n设为 LB/L1 时，在触发组合键之前它仍保持游戏中的原本作用；设为 LT/L2、RT/R2 或 RB/R1 时，游戏完全收不到它（这些是游戏的能力键）。\n\n每种组合键请使用各自不同的修饰键。
+Hold the Secondary Modifier and press the Primary Attack button.	按住副武器修饰键，再按主攻击键。
+Hold the Secondary Modifier and press the Secondary Attack button.	按住副武器修饰键，再按副攻击键。
+Hold the Secondary Modifier and press the Dash button.	按住副武器修饰键，再按冲刺键。
+Combo finishers	连招终结技
+Hold the Finisher Modifier and press or hold the Primary Attack, Secondary Attack or Dash button to equip a finisher.\n\nOn a combo's third hit the finisher comes out at once; keep pressing the chord for its further hits.	按住终结技修饰键，再轻按或长按主攻击键、副攻击键或冲刺键来装备一个终结技。\n\n在连招第三击时，终结技会立即使出；继续按组合键可打出后续段数。
+Enable Combo Finishers	启用连招终结技
+Off: the Finisher Modifier works as in the game, no finisher chords, and every combo ends with the finisher as in the game. The settings below are kept for when it is back on.	关闭：终结技修饰键的作用与原版游戏相同，没有终结技组合键，每段连招都像原版一样以终结技收尾。下方设置会保留，重新开启后继续生效。
+Finisher Style	终结技方式
+Dynamic: press or hold the chord button for one of two finishers per button (six in all).\n\nSets: the chord buttons always take a press, and play one of two sets of three finishers: set 1 is the Press finishers below, set 2 the Hold finishers. The Finisher Set Button swaps sets. Hold the chord button to charge a finisher that charges.	动态：轻按或长按组合键按钮，每个按钮对应两个终结技（共六个）。\n\n套组：组合键按钮一律按轻按处理，使用两套各三个终结技中的一套：第 1 套为下方的“轻按”终结技，第 2 套为“长按”终结技。用“终结技套组切换键”切换。可蓄力的终结技按住组合键按钮即可蓄力。
+Sets	套组
+Finisher Set Button	终结技套组切换键
+Finisher Style Sets: swaps between the two finisher sets.\n\nIt still does what it does in the game too.	终结技方式为“套组”时：在两套终结技之间切换。\n\n它在游戏中的原本作用仍然保留。
+Instant Finisher	即时终结技
+On: a finisher chord brings its finisher out straight away, wherever you are in the combo, without waiting for the third hit.\n\nExperimental.	开启：终结技组合键会立即使出终结技，无论处于连招的哪个位置，无需等到第三击。\n\n实验性功能。
+Finisher at End of Combo	连招结尾终结技
+On: after the combo's last hit, the next attack is the finisher, as in the game.\n\nOff: the combo starts over instead, and finishers only come from the finisher chords (turn on Instant Finisher).	开启：连招最后一击之后，下一次攻击就是终结技，与原版游戏相同。\n\n关闭：连招会重新开始，终结技只能通过终结技组合键使出（请开启“即时终结技”）。
+Finisher Hold Time (ms)	终结技长按时间（毫秒）
+How long a finisher chord's button is held to count as a hold.\n\nKeep it longer than a quick click or tap (about 100 ms on a mouse), or presses can count as holds.	终结技组合键按住多久算作长按。\n\n请设得比一次快速点击更长（鼠标约 100 毫秒），否则轻按可能被当作长按。
+Finisher Modifier	终结技修饰键
+The button held to pick a finisher.\n\nOn LB/L1 it still does what it does in the game until a chord fires; on LT/L2, RT/R2 or RB/R1 the game never sees it (they are the game's power buttons).\n\nGive each kind of chord its own modifier.	按住此键来选择终结技。\n\n设为 LB/L1 时，在触发组合键之前它仍保持游戏中的原本作用；设为 LT/L2、RT/R2 或 RB/R1 时，游戏完全收不到它（这些是游戏的能力键）。\n\n每种组合键请使用各自不同的修饰键。
+Modifier + Primary (Press) (Hold)	修饰键 + 主攻击（轻按）（长按）
+Hold the Finisher Modifier and press, or hold, the Primary Attack button.\n\nFinisher Style Sets: Press is this button's finisher in set 1, Hold in set 2.	按住终结技修饰键，再轻按或长按主攻击键。\n\n终结技方式为“套组”时：“轻按”是该按钮在第 1 套中的终结技，“长按”是第 2 套中的。
+Modifier + Secondary (Press) (Hold)	修饰键 + 副攻击（轻按）（长按）
+Hold the Finisher Modifier and press, or hold, the Secondary Attack button.\n\nFinisher Style Sets: Press is this button's finisher in set 1, Hold in set 2.	按住终结技修饰键，再轻按或长按副攻击键。\n\n终结技方式为“套组”时：“轻按”是该按钮在第 1 套中的终结技，“长按”是第 2 套中的。
+Modifier + Dodge (Press) (Hold)	修饰键 + 冲刺（轻按）（长按）
+Hold the Finisher Modifier and press, or hold, the Dash button.\n\nFinisher Style Sets: Press is this button's finisher in set 1, Hold in set 2.	按住终结技修饰键，再轻按或长按冲刺键。\n\n终结技方式为“套组”时：“轻按”是该按钮在第 1 套中的终结技，“长按”是第 2 套中的。
+Combo	连招
+Each weapon's own combo: how many times each of its three hits plays. One count runs through the combo, and every hit plays the attacking weapon's list at that count, so switching weapons carries the combo over.\n\nAt the end of a weapon's list the combo is complete (a primary's goes on to the finisher if Finisher at End of Combo is on); past its end, after switching from a weapon with a longer list, the combo starts over.\n\nExperimental.	每把武器自己的连招：其三段攻击各播放几次。整段连招共用一个计数，每一击都按当前攻击武器的列表在该计数处出招，所以切换武器会延续连招。\n\n到达某武器列表末尾时连招完成（若开启“连招结尾终结技”，主武器会接上终结技）；若从列表更长的武器切换过来、超出了末尾，连招会重新开始。\n\n实验性功能。
+Enable Combo	启用连招
+Off: every weapon plays the game's own combo (each hit once), and primaries and secondaries are separate combos. The settings below are kept for when it is back on.	关闭：每把武器都使用游戏原本的连招（每段一次），主武器和副武器的连招互相独立。下方设置会保留，重新开启后继续生效。
+Primary and Secondary Share Combo	主副武器共享连招
+On: primary and secondary weapons continue one combo. A secondary after two primary hits plays its third hit (by its own list), and the other way round.\n\nOff: as in the game, they are separate combos and switching between them starts over.\n\nExperimental.	开启：主武器和副武器延续同一段连招。主武器打出两击后接副武器，会使出副武器的第三击（按其自己的列表），反之亦然。\n\n关闭：与原版游戏相同，两者连招独立，相互切换会重新开始。\n\n实验性功能。
+Hit 1	第 1 击
+0 (skip)	0（跳过）
+Hit 2	第 2 击
+Hit 3	第 3 击
+Powers	能力
+Hold the Power Modifier and press a button to use a power slot.\n\nLetting go of the modifier lets go of the power; while a power is held, Jump and Dash work as usual.	按住能力修饰键，再按一个按钮来使用对应能力槽的能力。\n\n松开修饰键即松开能力；按住能力期间，跳跃和冲刺照常可用。
+Enable Powers	启用能力
+Off: the Power Modifier and the power buttons work as in the game, on controller and keyboard. The settings below are kept for when it is back on.	关闭：能力修饰键和能力按键的作用与原版游戏相同（手柄和键盘皆是）。下方设置会保留，重新开启后继续生效。
+Power Modifier	能力修饰键
+The button held to use a power.\n\nOn LB/L1 it still does what it does in the game until a chord fires; on LT/L2, RT/R2 or RB/R1 the game never sees it (they are the game's power buttons).\n\nGive each kind of chord its own modifier.\n\nOn RT/R2 or RB/R1, LT/L2 takes over that button's power slot.	按住此键来使用能力。\n\n设为 LB/L1 时，在触发组合键之前它仍保持游戏中的原本作用；设为 LT/L2、RT/R2 或 RB/R1 时，游戏完全收不到它（这些是游戏的能力键）。\n\n每种组合键请使用各自不同的修饰键。\n\n设为 RT/R2 或 RB/R1 时，由 LT/L2 接替该按钮的能力槽。
+Power Style	能力方式
+Dynamic: six power chords, on Primary Attack, Secondary Attack, Dash, Jump, RT/R2 and RB/R1.\n\nSets: power chords only on Primary Attack, Secondary Attack and Dash, with two sets of three powers. Set 1 is the powers set for Modifier + Primary, Secondary and Dash below; set 2 is the same buttons' powers on the other page (Power 1 and 4, 2 and 5, 3 and 6 swap). The Power Set Button swaps sets. Jump stays free while you hold the Power Modifier, and the Jump, RT/R2 and RB/R1 rows are not used.	动态：六个能力组合键，分别在主攻击、副攻击、冲刺、跳跃、RT/R2 和 RB/R1 上。\n\n套组：能力组合键只在主攻击、副攻击和冲刺上，共两套、每套三个能力。第 1 套是下方“修饰键 + 主攻击/副攻击/冲刺”设定的能力；第 2 套是同样按钮在另一页上的能力（能力 1 与 4、2 与 5、3 与 6 互换）。用“能力套组切换键”切换。按住能力修饰键时跳跃仍可自由使用，跳跃、RT/R2 和 RB/R1 这几行不会使用。
+Power Set Button	能力套组切换键
+Power Style Sets: swaps between the two power sets.\n\nIt still does what it does in the game too. The default, D-pad Right, is also the game's own button for swapping power sets, so the two stay together. If you change it here, remove the game's keybind for swapping power sets (in the game's keybind settings), or that button will keep swapping the game's set on its own.	能力方式为“套组”时：在两套能力之间切换。\n\n它在游戏中的原本作用仍然保留。默认的方向键右同时也是游戏自己切换能力套组的按键，因此两者保持同步。如果在这里更改，请在游戏的按键设置中移除游戏切换能力套组的绑定，否则那个按键会单独切换游戏的套组。
+Hold the Power Modifier and press the Primary Attack button.\n\nPower Style Sets: this button's power in set 1; in set 2 the one at the same place on the other page (1 and 4, 2 and 5, 3 and 6).	按住能力修饰键，再按主攻击键。\n\n能力方式为“套组”时：这是该按钮在第 1 套中的能力；第 2 套中是另一页同一位置的能力（1 与 4、2 与 5、3 与 6）。
+Power 1	能力 1
+Power 2	能力 2
+Power 3	能力 3
+Power 4	能力 4
+Power 5	能力 5
+Power 6	能力 6
+Hold the Power Modifier and press the Secondary Attack button.\n\nPower Style Sets: this button's power in set 1; in set 2 the one at the same place on the other page (1 and 4, 2 and 5, 3 and 6).	按住能力修饰键，再按副攻击键。\n\n能力方式为“套组”时：这是该按钮在第 1 套中的能力；第 2 套中是另一页同一位置的能力（1 与 4、2 与 5、3 与 6）。
+Hold the Power Modifier and press the Dash button.\n\nPower Style Sets: this button's power in set 1; in set 2 the one at the same place on the other page (1 and 4, 2 and 5, 3 and 6).	按住能力修饰键，再按冲刺键。\n\n能力方式为“套组”时：这是该按钮在第 1 套中的能力；第 2 套中是另一页同一位置的能力（1 与 4、2 与 5、3 与 6）。
+Modifier + Jump	修饰键 + 跳跃
+Hold the Power Modifier and press the Jump button.\n\nNot used in Power Style Sets.	按住能力修饰键，再按跳跃键。\n\n能力方式为“套组”时不使用。
+Modifier + RT/R2	修饰键 + RT/R2
+Hold the Power Modifier and press RT/R2 (LT/L2 if RT/R2 is the Power Modifier).\n\nNot used in Power Style Sets.	按住能力修饰键，再按 RT/R2（若 RT/R2 是能力修饰键，则为 LT/L2）。\n\n能力方式为“套组”时不使用。
+Modifier + RB/R1	修饰键 + RB/R1
+Hold the Power Modifier and press RB/R1 (LT/L2 if RB/R1 is the Power Modifier).\n\nNot used in Power Style Sets.	按住能力修饰键，再按 RB/R1（若 RB/R1 是能力修饰键，则为 LT/L2）。\n\n能力方式为“套组”时不使用。
+Damage	伤害
+How hard your weapon attacks hit, in percent of the game's own values: Damage (health taken off) and Falter (how fast enemies stagger). Powers are not changed.	武器攻击的力度，以游戏原值的百分比计：伤害（扣除的生命值）和硬直（敌人多快被打出硬直）。能力不受影响。
+Enable Damage	启用伤害设置
+Off: every attack does the game's own damage and falter. The settings below are kept for when it is back on.	关闭：所有攻击都使用游戏原本的伤害和硬直。下方设置会保留，重新开启后继续生效。
+Damage Settings	伤害设置
+Everything: one Damage and Falter for every weapon.\n\nBy Type: one pair for primaries, one for secondaries, one for combo finishers.\n\nBy Weapon: a pair for each weapon.\n\nOnly the settings of the chosen kind are used.	全部：所有武器共用一组伤害和硬直。\n\n按类型：主武器、副武器、连招终结技各一组。\n\n按武器：每把武器各一组。\n\n只有所选方式对应的设置会生效。
+Everything	全部
+By Type	按类型
+By Weapon	按武器
+Everything: Damage	全部：伤害
+Damage Settings Everything: the damage of every weapon attack, in percent of the game's.	伤害设置为“全部”时：所有武器攻击的伤害，以游戏原值的百分比计。
+Everything: Falter	全部：硬直
+Damage Settings Everything: the falter of every weapon attack, in percent of the game's.	伤害设置为“全部”时：所有武器攻击的硬直，以游戏原值的百分比计。
+Keyboard & Mouse (experimental)	键盘和鼠标（实验性）
+Input Method Mouse and Keyboard (at the top). The chords work on keyboard and mouse too: hold a modifier key and press the game's Primary Attack, Secondary Attack or the Third Key.\n\nPrimary attacks follow the Primary Style above.\n\nA modifier key still does what it does in the game (Alt still starts and answers radio calls) until a chord fires; then the game sees it let go.\n\nIn development.	需将顶部的输入方式设为“鼠标和键盘”。组合键在键盘和鼠标上同样可用：按住修饰键，再按游戏的主攻击键、副攻击键或第三键。\n\n主攻击遵循上方的主武器方式。\n\n修饰键在触发组合键之前仍保持游戏中的原本作用（Alt 仍可发起和接听无线电通话）；组合键触发后，游戏会视为它已松开。\n\n开发中。
+Third Key	第三键
+The third key of the chords, with the game's Primary and Secondary Attack keys (it takes the place of the controller's Dash button).\n\nOn its own it does what it does in the game.	组合键的第三个按键，与游戏的主攻击键和副攻击键配合使用（代替手柄上的冲刺键）。\n\n单独按下时保持游戏中的原本作用。
+Primary Modifier Key	主武器修饰键（键盘）
+Primary Style Modifier or Mixed: hold it and press one of the three keys above to pick a primary.	主武器方式为“修饰键”或“混合”时：按住此键，再按上述三个按键之一来选择主武器。
+Secondary Modifier Key	副武器修饰键（键盘）
+Hold it and press one of the three keys above to pick a secondary and attack with it.	按住此键，再按上述三个按键之一来选择副武器并攻击。
+Finisher Modifier Key	终结技修饰键（键盘）
+Hold it and press, or hold, one of the three keys above to pick a finisher.	按住此键，再轻按或长按上述三个按键之一来选择终结技。
+Finisher Set Key	终结技套组切换键（键盘）
+Finisher Style Sets: swaps between the two finisher sets.\n\nIt still does what it does in the game too, unless it is one of the game's power keys (then only the set swaps).	终结技方式为“套组”时：在两套终结技之间切换。\n\n它在游戏中的原本作用仍然保留，除非它也是游戏的能力键（此时只切换套组）。
+Power Style (Keyboard)	能力方式（键盘）
+Standard: the game's own six power keys, one for each power, as in the game.\n\nSets: hold the Power Modifier Key and press Primary Attack, Secondary Attack or the Third Key to use a power. Set 1 is the powers set for Modifier + Primary, Secondary and Dash in the Powers section; set 2 the same buttons' powers on the other page. The Power Set Key swaps sets. Letting go of the modifier lets go of the power. The game's own power keys must stay bound: the mod presses them.	标准：使用游戏原本的六个能力键，每个能力一个键，与原版相同。\n\n套组：按住能力修饰键，再按主攻击、副攻击或第三键来使用能力。第 1 套是“能力”部分中“修饰键 + 主攻击/副攻击/冲刺”设定的能力；第 2 套是同样按钮在另一页上的能力。用“能力套组切换键”切换。松开修饰键即松开能力。游戏自己的能力键必须保持绑定：模组会替你按下它们。
+Standard	标准
+Power Modifier Key	能力修饰键（键盘）
+Power Style (Keyboard) Sets: hold it and press Primary Attack, Secondary Attack or the Third Key to use a power.\n\nThe game never sees it (its default, E, is also one of the game's power keys).	能力方式（键盘）为“套组”时：按住此键，再按主攻击、副攻击或第三键来使用能力。\n\n游戏完全收不到此键（其默认键 E 也是游戏的能力键之一）。
+Power Set Key	能力套组切换键（键盘）
+Power Style (Keyboard) Sets: swaps between the two power sets.\n\nIt still does what it does in the game too, unless it is one of the game's power keys (then only the set swaps).	能力方式（键盘）为“套组”时：在两套能力之间切换。\n\n它在游戏中的原本作用仍然保留，除非它也是游戏的能力键（此时只切换套组）。
+# Templates: {w} is each weapon's name; {t} each kind in English (lower case), {T} capitalised, {z} in Chinese.
+How many times each of {w}'s three combo hits plays. 0 skips that hit; 1, 1, 1 is the game's own combo.	{w} 三段连招中每一段的播放次数。0 表示跳过该段；1、1、1 即游戏原本的连招。
+{w}: Damage	{w}：伤害
+{w}: Falter	{w}：硬直
+Damage Settings By Weapon: {w}'s damage, in percent of the game's.	伤害设置为“按武器”时：{w} 的伤害，以游戏原值的百分比计。
+Damage Settings By Weapon: {w}'s falter, in percent of the game's.	伤害设置为“按武器”时：{w} 的硬直，以游戏原值的百分比计。
+{T}: Damage	{z}：伤害
+{T}: Falter	{z}：硬直
+Damage Settings By Type: the damage of every {t} attack, in percent of the game's.	伤害设置为“按类型”时：所有{z}攻击的伤害，以游戏原值的百分比计。
+Damage Settings By Type: the falter of every {t} attack, in percent of the game's.	伤害设置为“按类型”时：所有{z}攻击的硬直，以游戏原值的百分比计。
+# The kinds for {t}/{T}/{z}
+@kind	primary	Primaries	主武器
+@kind	secondary	Secondaries	副武器
+@kind	combo finisher	Combo Finishers	连招终结技
